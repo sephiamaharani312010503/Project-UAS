@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/head"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/border_line2"
+        android:layout_margin="5dp"
+        android:text="DAFTAR HARGA"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="672dp"
+        android:background="@drawable/border_line"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        tools:context=".MainActivity">
+        <ListView
+            android:id="@+id/listview_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:dividerHeight="2dp">
+        </ListView>
+</RelativeLayout>
+</LinearLayout>
